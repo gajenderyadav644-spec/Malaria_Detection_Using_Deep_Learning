@@ -1,40 +1,48 @@
 🦠 Malaria Detection Using Deep Learning
 
-An AI-powered system that detects malaria parasites in blood smear images using Deep Learning (CNN).
-This project helps automate malaria diagnosis and assists healthcare professionals in detecting infected blood cells quickly.
+An AI-based system that detects malaria parasites in blood smear images using Deep Learning (CNN).
+This project helps automate malaria diagnosis and assist healthcare professionals in detecting infected blood cells quickly and accurately.
+
+👨‍💻 Author
+
+Name: Gajender Kumar
+GitHub: https://github.com/gajenderyadav644-spec
+
+Project: Malaria Detection Using Deep Learning
+Team ID: SWTID-2026-8818
 
 📌 Project Overview
 
-Malaria is a life-threatening disease caused by parasites transmitted through mosquito bites.
-Traditional diagnosis involves manual examination of blood smear images under a microscope, which can be time-consuming and error-prone.
+Malaria is a serious infectious disease caused by parasites transmitted through mosquito bites.
+Traditional diagnosis involves manual examination of blood smear images under a microscope, which is time-consuming and dependent on expert analysis.
 
-This project uses Deep Learning and Computer Vision to automatically classify blood cell images into:
+This project uses Deep Learning and Computer Vision to automatically classify blood cell images into two categories:
 
 Parasitized
 
 Uninfected
 
-The system allows users to upload a blood smear image through a web interface and receive an AI-based prediction.
+Users can upload blood smear images through a web interface, and the system predicts whether malaria parasites are present.
 
 🚀 Features
 
-🧠 Deep Learning based malaria detection
+Deep Learning based malaria detection
 
-🖼 Image classification using CNN
+CNN image classification model
 
-🌐 Web interface using Flask
+Web interface using Flask
 
-⚡ Fast prediction results
+Image upload and prediction system
 
-📊 Helps assist medical diagnosis
+Fast AI-based diagnosis support
 
 🛠 Technologies Used
 Technology	Purpose
 Python	Programming language
 TensorFlow / Keras	Deep learning framework
-CNN	Image classification model
-Flask	Web application framework
-NumPy	Numerical operations
+CNN	Image classification
+Flask	Web application
+NumPy	Numerical computation
 OpenCV / Pillow	Image processing
 📂 Project Structure
 malaria-detection/
@@ -56,16 +64,16 @@ malaria-detection/
 ├── requirements.txt
 └── README.md
 ⚙️ Installation
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/malaria-detection.git
+Clone the Repository
+git clone https://github.com/gajenderyadav644-spec/malaria-detection.git
 cd malaria-detection
-2️⃣ Install dependencies
+Install Dependencies
 pip install -r requirements.txt
-3️⃣ Run the application
+Run the Application
 python app.py
 🧪 Model Training
 
-To train the CNN model using the malaria dataset:
+To train the deep learning model:
 
 python train.py
 
@@ -74,15 +82,15 @@ The trained model will be saved as:
 malaria_model.h5
 🖥 Usage
 
-Start the Flask application.
+Start the Flask application
 
-Open the browser and go to:
+Open browser
 
 http://127.0.0.1:5000
 
-Upload a blood smear image.
+Upload a blood smear image
 
-The system will classify the image as:
+The system predicts:
 
 Parasitized
 
@@ -90,18 +98,19 @@ Uninfected
 
 📊 Dataset
 
-The dataset contains microscopic images of blood cells divided into two categories:
+Dataset used for training:
+
+NIH Malaria Cell Images Dataset
+
+Classes:
 
 Parasitized
 
 Uninfected
 
-Dataset commonly used:
-
-NIH Malaria Dataset
 📈 Model Performance
 
-Typical CNN model evaluation metrics include:
+Evaluation metrics used:
 
 Accuracy
 
@@ -111,29 +120,29 @@ Recall
 
 F1 Score
 
-These metrics help evaluate the model's ability to correctly detect malaria-infected cells.
+These metrics measure how accurately the model detects malaria parasites.
 
 📌 Advantages
 
 Faster malaria detection
 
-Reduces human error
+Reduced human error
 
-Supports healthcare professionals
+Automated blood smear analysis
 
-Useful in remote areas
+Helpful in rural healthcare centers
 
 ⚠ Limitations
 
-Model accuracy depends on image quality
+Depends on image quality
 
-Requires large dataset for better performance
+Requires large dataset
 
-Not a replacement for professional medical diagnosis
+Not a replacement for professional diagnosis
 
 🔮 Future Improvements
 
-Mobile application integration
+Mobile application development
 
 Cloud deployment
 
@@ -141,22 +150,6 @@ Real-time microscope integration
 
 Larger dataset training
 
-👨‍💻 Author
-
-Gajender Kumar
-Project: Malaria Detection Using Deep Learning
-Team ID: SWTID-2026-8818
-
 📜 License
 
-This project is for educational and research purposes.
-
-✅ Agar chaho to main tumhe GitHub ke liye aur powerful README bhi bana sakta hoon jisme:
-
-📸 Project screenshots
-
-🎥 Demo GIF
-
-📊 Model architecture diagram
-
-⭐ Badges (Python, TensorFlow, Flask)
+This project is developed for educational and research purposes.
